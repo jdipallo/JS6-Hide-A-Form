@@ -1,0 +1,68 @@
+/* CSS for JS6-Hide-A-Form */
+
+body {
+    background-image: url('./assets/wood.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Indie Flower', cursive;    
+    font-size: 22px;
+    color: white;
+}
+
+.main_container {
+    width: 50%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.container .profile_container {
+    width: 100%;
+    padding-top: 20%;
+}
+
+#profileForm {
+    display: none;
+    padding: 7% 28%;
+    background-color: rgba(255,255,255,0.3);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#profileForm input, textarea {
+    display: block;
+    width: 100%;
+    margin: 7px;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+#profileForm [type=submit] {
+    width: 80px;
+    background-color: #002EB2;
+    color: white;
+}
+
+#profileForm textarea {
+    height: 100px;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+#profileContent {
+    font-size: 30px;
+    text-align: center;
+}
+
+#profileContent input[type="submit"] {
+    display: block;
+    margin: 7px;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    width: 80px;
+    background-color: #002EB2;
+    color: white;
+}
