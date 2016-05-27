@@ -4,15 +4,15 @@ body {
     background-image: url('./assets/wood.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Open Sans' serif;    
-    font-size: 24px;
-    color: white;
 }
 
 .main_container {
     width: 50%;
     height: 600px;
     margin: 0 auto;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24px;
+    color: white;
 }
 
 .container .profile_container {
