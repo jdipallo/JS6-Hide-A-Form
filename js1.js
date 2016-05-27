@@ -17,5 +17,10 @@ function handleClickEvent(event) {
 
 function gatherFormContent(contentId) {
     profileForm.style.display = "none";
-    contentId.innerHTML = "blah blah blah";
+    
+    var name = '<p>Name:' + profileForm.firstName.value + ' ' + profileForm.lastName.value + '</p>';
+    var bio  = '<p>Bio:' + profileForm.bio.value + '</p>';
+    var favBooks = '<p>Favorite Books: ' + profileForm.favbooks.value + '</p>' ;
+    var favjslibs = '<p>Favorite JS Libraries: ' + profileForm.favjslibs.value + '</p>';
+    contentId.innerHTML = name + bio + favBooks + favjslibs;
 }

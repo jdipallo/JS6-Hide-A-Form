@@ -4,8 +4,8 @@ body {
     background-image: url('./assets/wood.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Indie Flower', cursive;    
-    font-size: 22px;
+    font-family: 'Open Sans' serif;    
+    font-size: 24px;
     color: white;
 }
 
@@ -52,11 +52,11 @@ input[type=text]:focus {
 }
 
 #profileContent {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
-#profileContent input[type="submit"] {
+#saveProfileBtn, #editProfileBtn {
     display: block;
     margin: 7px;
     padding: 10px;
